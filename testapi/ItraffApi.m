@@ -100,15 +100,15 @@
     NSString *url;
     if (multiMode) {
         if (allResults) {
-            url = [NSString stringWithFormat:@"http://recognize.im/recognize/multi/allInstances/%@", _id];
+            url = [NSString stringWithFormat:@"http://recognize.im/v2/recognize/multi/all/%@", _id];
         } else {
-            url = [NSString stringWithFormat:@"http://recognize.im/recognize/multi/%@", _id];
+            url = [NSString stringWithFormat:@"http://recognize.im/v2/recognize/multi/%@", _id];
         }
     } else {
         if (allResults) {
-            url = [NSString stringWithFormat:@"http://recognize.im/recognize/allResults/%@", _id];            
+            url = [NSString stringWithFormat:@"http://recognize.im/v2/recognize/single/all/%@", _id];
         } else {
-            url = [NSString stringWithFormat:@"http://recognize.im/recognize/%@", _id];
+            url = [NSString stringWithFormat:@"http://recognize.im/v2/recognize/single/%@", _id];
         }
     }
 
