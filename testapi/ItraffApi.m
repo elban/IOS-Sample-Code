@@ -30,7 +30,6 @@
 
 /*!
  @abstract extract data from image
- @discussion image is scaled and converted to gray scale 
  @param source
  source image
  @return NSData image data
@@ -38,28 +37,7 @@
 -(NSData *)imageData
     :(UIImage *)source
 {
-    float ratio = source.size.width / source.size.height;
-    int w, h;
-    if (ratio > 1) {
-        w = 480 * ratio;
-        h = 480;
-    } else {
-        w = 480;
-        h = 480 * ratio;
-    }
-    
-	CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceGray();
-	CGContextRef context = CGBitmapContextCreate(nil, w, h, 8, 0, colorSpace, kCGImageAlphaNone);
-	CGColorSpaceRelease(colorSpace);
-    
-	if (NULL == context)
-		return nil;
-    
-	CGContextDrawImage(context, CGRectMake(0, 0, w, h), source.CGImage);
-	UIImage *grayImage = [UIImage imageWithCGImage:CGBitmapContextCreateImage(context)];
-	CGContextRelease(context);
-    
-	return UIImageJPEGRepresentation(grayImage, 0.6);
+	return UIImageJPEGRepresentation(source, 0.6);
 }
 
 /*!
