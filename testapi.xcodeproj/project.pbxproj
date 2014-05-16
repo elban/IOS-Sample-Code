@@ -25,6 +25,13 @@
 		A3FB6F8A1585EF3D004EEA73 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB6F891585EF3D004EEA73 /* FlipsideViewController.m */; };
 		A3FB6F8D1585EF3D004EEA73 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FB6F8B1585EF3D004EEA73 /* MainViewController.xib */; };
 		A3FB6F901585EF3D004EEA73 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FB6F8E1585EF3D004EEA73 /* FlipsideViewController.xib */; };
+		D3A652161910F5D300559A82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A652151910F5D300559A82 /* Default-568h@2x.png */; };
+		D3DAEB3419051EC0007695ED /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAEB3319051EC0007695ED /* ImageViewController.m */; };
+		D3DAEB411905AB51007695ED /* ItraffResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAEB401905AB51007695ED /* ItraffResponse.m */; };
+		D3DAEB441905AC16007695ED /* RecognizedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAEB431905AC16007695ED /* RecognizedObject.m */; };
+		D3DAEB471905ACB6007695ED /* RecognizedLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAEB461905ACB6007695ED /* RecognizedLocation.m */; };
+		D3DAEB8C1905B605007695ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DAEB8B1905B605007695ED /* QuartzCore.framework */; };
+		D3DAEB8D1905C876007695ED /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3DAEB8F1905C876007695ED /* ImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +61,17 @@
 		A3FB6F8C1585EF3D004EEA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
 		A3FB6F8F1585EF3D004EEA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
 		A3FB6F971585EF3D004EEA73 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D3A652151910F5D300559A82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D3DAEB3319051EC0007695ED /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		D3DAEB3619051F0F007695ED /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		D3DAEB3F1905AB51007695ED /* ItraffResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItraffResponse.h; sourceTree = "<group>"; };
+		D3DAEB401905AB51007695ED /* ItraffResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItraffResponse.m; sourceTree = "<group>"; };
+		D3DAEB421905AC16007695ED /* RecognizedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizedObject.h; sourceTree = "<group>"; };
+		D3DAEB431905AC16007695ED /* RecognizedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizedObject.m; sourceTree = "<group>"; };
+		D3DAEB451905ACB6007695ED /* RecognizedLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizedLocation.h; sourceTree = "<group>"; };
+		D3DAEB461905ACB6007695ED /* RecognizedLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizedLocation.m; sourceTree = "<group>"; };
+		D3DAEB8B1905B605007695ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D3DAEB8E1905C876007695ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DAEB8C1905B605007695ED /* QuartzCore.framework in Frameworks */,
 				A3FB6F741585EF3D004EEA73 /* UIKit.framework in Frameworks */,
 				A3FB6F761585EF3D004EEA73 /* Foundation.framework in Frameworks */,
 				A3FB6F781585EF3D004EEA73 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +92,7 @@
 		A3CBDD37158A162100889317 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D3A652151910F5D300559A82 /* Default-568h@2x.png */,
 				8C82D5F916D28BA6003B22CB /* Default.png */,
 				8C82D5FA16D28BA6003B22CB /* Default@2x.png */,
 				8CC51B801653F28400D272E9 /* itraff_logo.png */,
@@ -103,6 +123,7 @@
 		A3FB6F721585EF3D004EEA73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3DAEB8B1905B605007695ED /* QuartzCore.framework */,
 				A3FB6F731585EF3D004EEA73 /* UIKit.framework */,
 				A3FB6F751585EF3D004EEA73 /* Foundation.framework */,
 				A3FB6F771585EF3D004EEA73 /* CoreGraphics.framework */,
@@ -114,6 +135,10 @@
 		A3FB6F791585EF3D004EEA73 /* testapi */ = {
 			isa = PBXGroup;
 			children = (
+				D3DAEB3E1905AB34007695ED /* Models */,
+				D3DAEB8F1905C876007695ED /* ImageViewController.xib */,
+				D3DAEB3619051F0F007695ED /* ImageViewController.h */,
+				D3DAEB3319051EC0007695ED /* ImageViewController.m */,
 				A3FB6F821585EF3D004EEA73 /* AppDelegate.h */,
 				A3FB6F831585EF3D004EEA73 /* AppDelegate.m */,
 				A3FB6F851585EF3D004EEA73 /* MainViewController.h */,
@@ -140,6 +165,19 @@
 				A3ACC2CC15943AA000F39AA7 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3DAEB3E1905AB34007695ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3DAEB3F1905AB51007695ED /* ItraffResponse.h */,
+				D3DAEB401905AB51007695ED /* ItraffResponse.m */,
+				D3DAEB421905AC16007695ED /* RecognizedObject.h */,
+				D3DAEB431905AC16007695ED /* RecognizedObject.m */,
+				D3DAEB451905ACB6007695ED /* RecognizedLocation.h */,
+				D3DAEB461905ACB6007695ED /* RecognizedLocation.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +207,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					A3FB6F6E1585EF3D004EEA73 = {
+						DevelopmentTeam = MBQLLZ5G54;
+					};
+				};
 			};
 			buildConfigurationList = A3FB6F691585EF3D004EEA73 /* Build configuration list for PBXProject "testapi" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -198,10 +241,12 @@
 				A3FB6F901585EF3D004EEA73 /* FlipsideViewController.xib in Resources */,
 				A3ACC2CA15943AA000F39AA7 /* Localizable.strings in Resources */,
 				8C1F03471653F13100F65F08 /* icon@2x.png in Resources */,
+				D3A652161910F5D300559A82 /* Default-568h@2x.png in Resources */,
 				8C1F03491653F14600F65F08 /* icon.png in Resources */,
 				8CC51B821653F28400D272E9 /* itraff_logo.png in Resources */,
 				8CC51B831653F28400D272E9 /* itraff_logo@2x.png in Resources */,
 				8C82D5FB16D28BA6003B22CB /* Default.png in Resources */,
+				D3DAEB8D1905C876007695ED /* ImageViewController.xib in Resources */,
 				8C82D5FC16D28BA6003B22CB /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,10 +258,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DAEB3419051EC0007695ED /* ImageViewController.m in Sources */,
 				A3FB6F801585EF3D004EEA73 /* main.m in Sources */,
 				A3FB6F841585EF3D004EEA73 /* AppDelegate.m in Sources */,
+				D3DAEB471905ACB6007695ED /* RecognizedLocation.m in Sources */,
+				D3DAEB411905AB51007695ED /* ItraffResponse.m in Sources */,
 				A3FB6F871585EF3D004EEA73 /* MainViewController.m in Sources */,
 				A3FB6F8A1585EF3D004EEA73 /* FlipsideViewController.m in Sources */,
+				D3DAEB441905AC16007695ED /* RecognizedObject.m in Sources */,
 				A3EDFEB2158794F900D3AB3F /* ItraffApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +303,14 @@
 				A3FB6F8F1585EF3D004EEA73 /* en */,
 			);
 			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+		D3DAEB8F1905C876007695ED /* ImageViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DAEB8E1905C876007695ED /* en */,
+			);
+			name = ImageViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,14 +380,15 @@
 					armv7,
 					armv7s,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wojciech Radomski (3GN5YS6ZCS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Miroslaw Pospiech (69HM2QL954)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testapi/testapi-Prefix.pch";
 				INFOPLIST_FILE = "testapi/testapi-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3BE05E37-D4C8-456F-889E-B74DA110931E";
+				PROVISIONING_PROFILE = "139FD565-DAC6-4797-9DEB-7208C3820C23";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -342,16 +400,16 @@
 					armv7,
 					armv7s,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Distribution: iTraff Sp. z o.o.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iTraff Sp. z o.o.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: iTraff Sp. z o.o. (MBQLLZ5G54)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iTraff Sp. z o.o. (MBQLLZ5G54)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testapi/testapi-Prefix.pch";
 				INFOPLIST_FILE = "testapi/testapi-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "AC4EABF3-C872-4473-AA3A-BDCBF01FA198";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC4EABF3-C872-4473-AA3A-BDCBF01FA198";
+				PROVISIONING_PROFILE = "C5366F0F-1B81-4503-A8C9-BAC21FFD88FE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C5366F0F-1B81-4503-A8C9-BAC21FFD88FE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
