@@ -116,7 +116,7 @@
     }
     float scale = 0.0f;
     if (area < minArea) {
-        scale = (float) sqrt((minArea + 1000) / area);
+        scale = (float) sqrt((minArea * 2) / area);
     } else {
         scale = (float) sqrt(maxArea / area);
     }

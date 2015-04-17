@@ -7,10 +7,10 @@
 #import <Foundation/Foundation.h>
 
 #define MIN_AREA_SINGLE 50000 //minimal image area for single object recognition mode
-#define MAX_AREA_SINGLE 120000 //maximal image area for single object recognition mode
+#define MAX_AREA_SINGLE 300000 //maximal image area for single object recognition mode
 
 #define MIN_AREA_MULTI 100000 //minimal image area for single object recognition mode
-#define MAX_AREA_MULTI 250000  //maximal image area for single object recognition mode
+#define MAX_AREA_MULTI 5000000  //maximal image area for single object recognition mode, in fact max is 12M but we use 5M not to send it too long
 
 @interface ItraffApi : NSObject {
 @protected
