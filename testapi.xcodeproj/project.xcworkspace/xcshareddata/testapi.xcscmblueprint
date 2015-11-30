@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D8A9F4E169EF8C80F66A150D2A64F2EBB418E4E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c21a2194-66f6-447d-8b98-9fce29e4625f++8073" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D8A9F4E169EF8C80F66A150D2A64F2EBB418E4E2" : 0,
+    "c21a2194-66f6-447d-8b98-9fce29e4625f++8073" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88B99A77-2F84-4F17-A928-6122A647912D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D8A9F4E169EF8C80F66A150D2A64F2EBB418E4E2" : "itraff_test\/",
+    "c21a2194-66f6-447d-8b98-9fce29e4625f++8073" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "testapi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "testapi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:elban\/IOS-Sample-Code.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D8A9F4E169EF8C80F66A150D2A64F2EBB418E4E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.programa.pl\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c21a2194-66f6-447d-8b98-9fce29e4625f++8073"
+    }
+  ]
+}
